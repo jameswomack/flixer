@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73F1F4531BE82BEB006ECD80 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 73F1F4521BE82BEB006ECD80 /* assets */; };
 		AA1CADAD1B39D7E700D5C7DF /* OctoscreenView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA1CADAC1B39D7E700D5C7DF /* OctoscreenView.h */; };
 		AA1CADAF1B39D7E700D5C7DF /* OctoscreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1CADAE1B39D7E700D5C7DF /* OctoscreenView.m */; };
 		AA1CADB71B39FECA00D5C7DF /* build in Resources */ = {isa = PBXBuildFile; fileRef = AA1CADB51B39FECA00D5C7DF /* build */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		73F1F4521BE82BEB006ECD80 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
 		AA1CADA71B39D7E700D5C7DF /* Octoscreen.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Octoscreen.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA1CADAB1B39D7E700D5C7DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA1CADAC1B39D7E700D5C7DF /* OctoscreenView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OctoscreenView.h; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				AA1CADB51B39FECA00D5C7DF /* build */,
 				AA1CADB61B39FECA00D5C7DF /* index.html */,
+				73F1F4521BE82BEB006ECD80 /* assets */,
 				AA1CADAC1B39D7E700D5C7DF /* OctoscreenView.h */,
 				AA1CADAE1B39D7E700D5C7DF /* OctoscreenView.m */,
 				AA1CADAA1B39D7E700D5C7DF /* Supporting Files */,
@@ -137,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73F1F4531BE82BEB006ECD80 /* assets in Resources */,
 				AA1CADB71B39FECA00D5C7DF /* build in Resources */,
 				AA1CADB81B39FECA00D5C7DF /* index.html in Resources */,
 			);

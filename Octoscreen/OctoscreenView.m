@@ -14,12 +14,24 @@
 {
     self = [super initWithFrame:frame isPreview:isPreview];
     if (self) {
-        //[self setAnimationTimeInterval:1/30.0];
-        webView = [[WebView alloc] initWithFrame:[self bounds] frameName:nil groupName:nil];
-        [webView setDrawsBackground:NO];
-        [webView setMainFrameURL:[NSString stringWithFormat:@"file://%@/index.html", [[NSBundle bundleForClass:[self class]] resourcePath]]];
-        [self addSubview:webView];
-        
+      webView = [[WebView alloc] initWithFrame:[self bounds] frameName:nil groupName:nil];
+      [webView setDrawsBackground:NO];
+      [webView setMainFrameURL:[NSString stringWithFormat:@"file://%@/assets/player/KeynoteDHTMLPlayer.html", [[NSBundle bundleForClass:[self class]] resourcePath]]];
+      [self addSubview:webView];
+      [webView setAutoresizesSubviews:YES];
+      [webView setAutoresizingMask:NSViewHeightSizable|NSViewWidthSizable];
+      CGFloat width = 1280;
+      CGFloat height = 760;
+      
+      
+      
+      CGFloat ww = self.bounds.size.width / width;
+      CGFloat hh = self.bounds.size.height / height;
+      
+      CGFloat vv = MAX(ww, hh);
+      
+      webView.layer.transform = CATransform3DMakeScale(vv, vv, 1);
+      
     }
     return self;
 }
@@ -36,7 +48,7 @@
 
 - (void)drawRect:(NSRect)rect
 {
-    [super drawRect:rect];
+  [super drawRect:rect];
 }
 
 - (void)animateOneFrame
