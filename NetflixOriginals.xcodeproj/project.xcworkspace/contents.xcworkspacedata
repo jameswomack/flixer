@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Octoscreen.xcodeproj">
+      location = "self:/Users/jwomack/Projects/github/jameswomack/octoscreen/NetflixOriginals.xcodeproj">
    </FileRef>
 </Workspace>

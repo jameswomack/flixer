@@ -25,7 +25,8 @@
         <script type="text/javascript" src="NarrationManager.js"></script>
         <script>
           window.consumePrefs = function () {
-            console.log(arguments);
+            var stageEl = document.querySelector('#stage');
+            stageEl.innerHTML = String(arguments);
           }
         </script>
 	</head>

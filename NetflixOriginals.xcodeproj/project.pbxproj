@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5D6F212F1BE80F7F00D5BE19 /* ConfigureSheet.nib in Resources */ = {isa = PBXBuildFile; fileRef = 5D6F212E1BE80F7F00D5BE19 /* ConfigureSheet.nib */; };
-		5D6F21311BE8113F00D5BE19 /* Octoscreen.saver in CopyFiles */ = {isa = PBXBuildFile; fileRef = AA1CADA71B39D7E700D5C7DF /* Octoscreen.saver */; };
+		5D6F21311BE8113F00D5BE19 /* NetflixOriginals.saver in CopyFiles */ = {isa = PBXBuildFile; fileRef = AA1CADA71B39D7E700D5C7DF /* NetflixOriginals.saver */; };
 		73F1F4531BE82BEB006ECD80 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 73F1F4521BE82BEB006ECD80 /* assets */; };
 		AA1CADAD1B39D7E700D5C7DF /* OctoscreenView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA1CADAC1B39D7E700D5C7DF /* OctoscreenView.h */; };
 		AA1CADAF1B39D7E700D5C7DF /* OctoscreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1CADAE1B39D7E700D5C7DF /* OctoscreenView.m */; };
@@ -23,7 +23,7 @@
 			dstPath = "~/Library/Screen Savers";
 			dstSubfolderSpec = 0;
 			files = (
-				5D6F21311BE8113F00D5BE19 /* Octoscreen.saver in CopyFiles */,
+				5D6F21311BE8113F00D5BE19 /* NetflixOriginals.saver in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,7 +32,7 @@
 /* Begin PBXFileReference section */
 		5D6F212E1BE80F7F00D5BE19 /* ConfigureSheet.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = ConfigureSheet.nib; sourceTree = "<group>"; };
 		73F1F4521BE82BEB006ECD80 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
-		AA1CADA71B39D7E700D5C7DF /* Octoscreen.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Octoscreen.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1CADA71B39D7E700D5C7DF /* NetflixOriginals.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetflixOriginals.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA1CADAB1B39D7E700D5C7DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA1CADAC1B39D7E700D5C7DF /* OctoscreenView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OctoscreenView.h; sourceTree = "<group>"; };
 		AA1CADAE1B39D7E700D5C7DF /* OctoscreenView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OctoscreenView.m; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		AA1CADA81B39D7E700D5C7DF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA1CADA71B39D7E700D5C7DF /* Octoscreen.saver */,
+				AA1CADA71B39D7E700D5C7DF /* NetflixOriginals.saver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,9 +103,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AA1CADA61B39D7E700D5C7DF /* Octoscreen */ = {
+		AA1CADA61B39D7E700D5C7DF /* NetflixOriginals */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA1CADB21B39D7E700D5C7DF /* Build configuration list for PBXNativeTarget "Octoscreen" */;
+			buildConfigurationList = AA1CADB21B39D7E700D5C7DF /* Build configuration list for PBXNativeTarget "NetflixOriginals" */;
 			buildPhases = (
 				AA1CADA21B39D7E700D5C7DF /* Sources */,
 				AA1CADA31B39D7E700D5C7DF /* Frameworks */,
@@ -117,9 +117,9 @@
 			);
 			dependencies = (
 			);
-			name = Octoscreen;
+			name = NetflixOriginals;
 			productName = Octoscreen;
-			productReference = AA1CADA71B39D7E700D5C7DF /* Octoscreen.saver */;
+			productReference = AA1CADA71B39D7E700D5C7DF /* NetflixOriginals.saver */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -136,7 +136,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AA1CADA11B39D7E700D5C7DF /* Build configuration list for PBXProject "Octoscreen" */;
+			buildConfigurationList = AA1CADA11B39D7E700D5C7DF /* Build configuration list for PBXProject "NetflixOriginals" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -148,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA1CADA61B39D7E700D5C7DF /* Octoscreen */,
+				AA1CADA61B39D7E700D5C7DF /* NetflixOriginals */,
 			);
 		};
 /* End PBXProject section */
@@ -217,6 +217,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = NetflixOriginals;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -252,6 +253,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NetflixOriginals;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -262,7 +264,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Octoscreen/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NetflixOriginals;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
@@ -273,7 +275,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Octoscreen/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NetflixOriginals;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;
@@ -281,7 +283,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA1CADA11B39D7E700D5C7DF /* Build configuration list for PBXProject "Octoscreen" */ = {
+		AA1CADA11B39D7E700D5C7DF /* Build configuration list for PBXProject "NetflixOriginals" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA1CADB01B39D7E700D5C7DF /* Debug */,
@@ -290,7 +292,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA1CADB21B39D7E700D5C7DF /* Build configuration list for PBXNativeTarget "Octoscreen" */ = {
+		AA1CADB21B39D7E700D5C7DF /* Build configuration list for PBXNativeTarget "NetflixOriginals" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA1CADB31B39D7E700D5C7DF /* Debug */,
