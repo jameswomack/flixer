@@ -17,4 +17,7 @@
     __weak IBOutlet NSMatrix *originalsMatrix;
 }
 
+- (IBAction)okClick:(id)sender;
+- (IBAction)cancelClick:(id)sender;
+
 @end

@@ -76,6 +76,17 @@
     return configSheet;
 }
 
+- (IBAction)okClick:(id)sender
+{
+  NSArray* cells = originalsMatrix.selectedCells;
+  for (NSCell *cell in cells) {
+    NSString *execThis = [NSString stringWithFormat:@"consumePrefs(%@);", cell.stringValue];
+    [webView stringByEvaluatingJavaScriptFromString:execThis];
+  }
+  
+  [[NSApplication sharedApplication] endSheet:configSheet];
+}
+
 - (IBAction)cancelClick:(id)sender
 {
     [[NSApplication sharedApplication] endSheet:configSheet];
