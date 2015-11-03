@@ -7,13 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D6F212F1BE80F7F00D5BE19 /* ConfigureSheet.nib in Resources */ = {isa = PBXBuildFile; fileRef = 5D6F212E1BE80F7F00D5BE19 /* ConfigureSheet.nib */; };
+		5D6F21311BE8113F00D5BE19 /* Octoscreen.saver in CopyFiles */ = {isa = PBXBuildFile; fileRef = AA1CADA71B39D7E700D5C7DF /* Octoscreen.saver */; };
 		AA1CADAD1B39D7E700D5C7DF /* OctoscreenView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA1CADAC1B39D7E700D5C7DF /* OctoscreenView.h */; };
 		AA1CADAF1B39D7E700D5C7DF /* OctoscreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1CADAE1B39D7E700D5C7DF /* OctoscreenView.m */; };
 		AA1CADB71B39FECA00D5C7DF /* build in Resources */ = {isa = PBXBuildFile; fileRef = AA1CADB51B39FECA00D5C7DF /* build */; };
 		AA1CADB81B39FECA00D5C7DF /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = AA1CADB61B39FECA00D5C7DF /* index.html */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5D6F21301BE8111A00D5BE19 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "~/Library/Screen Savers";
+			dstSubfolderSpec = 0;
+			files = (
+				5D6F21311BE8113F00D5BE19 /* Octoscreen.saver in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5D6F212E1BE80F7F00D5BE19 /* ConfigureSheet.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ConfigureSheet.nib; path = ../../../Downloads/ConfigureSheet.nib; sourceTree = "<group>"; };
 		AA1CADA71B39D7E700D5C7DF /* Octoscreen.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Octoscreen.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA1CADAB1B39D7E700D5C7DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA1CADAC1B39D7E700D5C7DF /* OctoscreenView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OctoscreenView.h; sourceTree = "<group>"; };
@@ -64,6 +80,7 @@
 		AA1CADAA1B39D7E700D5C7DF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5D6F212E1BE80F7F00D5BE19 /* ConfigureSheet.nib */,
 				AA1CADAB1B39D7E700D5C7DF /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -91,6 +108,7 @@
 				AA1CADA31B39D7E700D5C7DF /* Frameworks */,
 				AA1CADA41B39D7E700D5C7DF /* Headers */,
 				AA1CADA51B39D7E700D5C7DF /* Resources */,
+				5D6F21301BE8111A00D5BE19 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -137,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D6F212F1BE80F7F00D5BE19 /* ConfigureSheet.nib in Resources */,
 				AA1CADB71B39FECA00D5C7DF /* build in Resources */,
 				AA1CADB81B39FECA00D5C7DF /* index.html in Resources */,
 			);
