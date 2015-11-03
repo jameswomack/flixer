@@ -12,6 +12,9 @@
 @interface OctoscreenView : ScreenSaverView
 {
     WebView *webView;
+    IBOutlet id configSheet;
+
+    __weak IBOutlet NSMatrix *originalsMatrix;
 }
 
 @end
